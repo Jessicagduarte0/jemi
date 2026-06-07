@@ -1,0 +1,78 @@
+// Produtos locais da loja JEMI
+// Estes dados simulam o retorno de uma API GET
+const PRODUCTS = [
+  {
+    id: '1',
+    name: 'Camisa Branca',
+    price: 149.90,
+    category: 'Feminino',
+    description: 'Camisa confeccionada em tecido premium com corte clássico. Perfeita para looks casuais e formais. Modelagem confortável e elegante.',
+    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&q=80',
+    sizes: ['P', 'M', 'G', 'GG'],
+  },
+  {
+    id: '2',
+    name: 'Vestido Midi Linho',
+    price: 189.90,
+    category: 'Feminino',
+    description: 'Vestido confeccionado em linho natural com corte midi. Aqui ajustado e deixou o V. Tecido leve e respirável, ideal para dias quentes. Modelagem solta e confortável.',
+    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80',
+    sizes: ['P', 'M', 'G', 'GG'],
+  },
+  {
+    id: '3',
+    name: 'Blusa Cropped',
+    price: 79.90,
+    category: 'Feminino',
+    description: 'Blusa cropped estilosa confeccionada em malha de algodão. Combina com calças de cintura alta e saias. Modelagem moderna e atual.',
+    image: 'https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?w=400&q=80',
+    sizes: ['P', 'M', 'G'],
+  },
+  {
+    id: '4',
+    name: 'Calça Alfaiataria',
+    price: 249.90,
+    category: 'Feminino',
+    description: 'Calça de alfaiataria com caimento impecável. Tecido de alta qualidade com acabamento refinado. Versátil para looks do dia a dia e trabalho.',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
+    sizes: ['36', '38', '40', '42'],
+  },
+  {
+    id: '5',
+    name: 'Vestido Colorido',
+    price: 129.90,
+    category: 'Infantil',
+    description: 'Vestido alegre e colorido para as pequenas. Tecido leve e confortável, perfeito para o dia a dia. Cores vibrantes e design encantador.',
+    image: 'https://images.unsplash.com/photo-1472746729193-e9a5b927a6b0?w=400&q=80',
+    sizes: ['2', '4', '6', '8'],
+  },
+  {
+    id: '6',
+    name: 'Vestido Floral',
+    price: 169.90,
+    category: 'Feminino',
+    description: 'Vestido floral com estampa delicada e feminina. Tecido fluido que valoriza a silhueta. Perfeito para ocasiões especiais e passeios.',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80',
+    sizes: ['P', 'M', 'G'],
+  },
+  {
+    id: '7',
+    name: 'Camisa Social Masculina',
+    price: 159.90,
+    category: 'Masculino',
+    description: 'Camisa social masculina com corte slim fit. Ideal para ambientes corporativos e ocasiões formais. Tecido de alta qualidade com excelente caimento.',
+    image: 'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400&q=80',
+    sizes: ['P', 'M', 'G', 'GG'],
+  },
+  {
+    id: '8',
+    name: 'Calça Chino Masculina',
+    price: 199.90,
+    category: 'Masculino',
+    description: 'Calça chino masculina clássica e versátil. Combina com camisas casuais e sociais. Tecido resistente e confortável para o dia a dia.',
+    image: 'https://images.unsplash.com/photo-1594938374182-a55e3b27dc6e?w=400&q=80',
+    sizes: ['38', '40', '42', '44'],
+  },
+];
+
+export default PRODUCTS;
